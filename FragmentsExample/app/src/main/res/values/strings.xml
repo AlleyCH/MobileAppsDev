@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">FragmentsExample</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="program_fragment">Hello program fragment</string>
+    <string name="description_fragment">Hello description fragment</string>
+    <string name="program_name">Show Program Name</string>
+    <string name="AIActivity">AIActivity</string>
+    <string name="VRActivityV">VRActivity</string>
+
+    <string-array name="activities">
+
+        <item> AIActivity</item>
+        <item> AIActivity</item>
+
+    </string-array>
+
+    <string-array name="descriptions">
+
+        <item> Software Engineering Technology</item>
+        <item> Software Engineering Technician</item>
+        <item> Health Informatics Technology</item>
+        <item> Game - Programming </item>
+        <item> Software Engineering Technology - Artificial Intelligence</item>
+        <item> SMobile Apps Development</item>
+
+    </string-array>
+
+</resources>
