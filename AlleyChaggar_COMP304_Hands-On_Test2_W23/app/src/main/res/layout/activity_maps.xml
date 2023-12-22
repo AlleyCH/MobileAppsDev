@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="1000px"
+        tools:context=".MapsActivity" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Locations"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/cnTower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CN Tower, 290 Bremner Blvd, Toronto, ON M5V 3L9" />
+
+    <Button
+        android:id="@+id/casa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Casa Loma, 1 Austin Terrace, Toronto, ON M5R 1X8" />
+
+    <Button
+        android:id="@+id/centennial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Centennial College, 941 Progress Ave, Scarborough, ON M1G 3T8" />
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextPatientId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/patient_id"
+        android:inputType="number"
+        android:autofillHints="no"/>
+
+    <EditText
+        android:id="@+id/editTextNurseId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nurse_id"
+        android:inputType="number"
+        android:autofillHints="no"/>
+
+    <EditText
+        android:id="@+id/editTextBPL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/blood_pressure_low"
+        android:inputType="numberDecimal"
+        android:autofillHints="no"/>
+
+    <EditText
+        android:id="@+id/editTextBPH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/blood_pressure_high"
+        android:inputType="numberDecimal"
+        android:autofillHints="no"/>
+
+    <EditText
+        android:id="@+id/editTextTemperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/temperature"
+        android:inputType="numberDecimal"
+        android:autofillHints="no"/>
+
+    <Button
+        android:id="@+id/buttonSaveTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_test_data"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

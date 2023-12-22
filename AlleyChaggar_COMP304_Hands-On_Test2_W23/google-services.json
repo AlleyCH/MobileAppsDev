@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "87470497212",
+    "project_id": "alleychaggarcomp304lab5",
+    "storage_bucket": "alleychaggarcomp304lab5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87470497212:android:769155178a7c1305d75fb9",
+        "android_client_info": {
+          "package_name": "com.example.alleychaggar_comp304lab5"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtlYqByCF6xHjTkaqhNJsfwU9eAP3iIcE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

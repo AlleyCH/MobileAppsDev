@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editTextFirstName" type="id" />
+    <item name="editTextLastName" type="id" />
+    <item name="editTextDepartment" type="id" />
+    <item name="editTextRoom" type="id" />
+    <item name="textViewPatientName" type="id" />
+    <item name="textViewPatientId" type="id" />
+</resources>
